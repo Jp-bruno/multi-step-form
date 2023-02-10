@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --app-background-color: hsl(217, 100%, 97%);
+    --letter-color: hsl(231, 100%, 99%);
+    --step-letter-color: hsl(229.56521739130437, 16.312056737588655%, 72.3529411764706%);
+    --font-ubuntu: 'Ubuntu', sans-serif;
+    --text-input-border: hsl(229, 24%, 87%);
+}
