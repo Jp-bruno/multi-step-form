@@ -3,7 +3,7 @@ import FormsBox from './Forms/FormsBox';
 import StepsBox from './StepsBox';
 
 const StyledBox = styled.div`
-    width: 70%;
+    width: 65%;
     height: 80%;
     border-radius: 10px;
     display: grid;

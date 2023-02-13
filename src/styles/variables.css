@@ -6,4 +6,6 @@
     --step-letter-color: hsl(229.56521739130437, 16.312056737588655%, 72.3529411764706%);
     --font-ubuntu: 'Ubuntu', sans-serif;
     --text-input-border: hsl(229, 24%, 87%);
+    --next-step-button-background-color: hsl(214, 72%, 32%);
+    --plan-border: hsl(243, 100%, 62%);
 }

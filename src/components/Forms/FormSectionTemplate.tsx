@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import styled from "styled-components";
 
 const StyledSection = styled.section`
+
   .section_text {
     .section_title {
       margin-top: 41px;
@@ -17,6 +18,9 @@ const StyledSection = styled.section`
   .form {
     margin-top: 37px;
 
+    .text_input_label:not(:first-of-type) {
+      margin-top: 20px;
+    }
   }
 `;
 
@@ -39,7 +43,12 @@ export default function FormSectionTemplate({
         <h1 className="section_title">{title}</h1>
         <p className="section_description">{description}</p>
       </div>
-      <form className={`form ${'active'}`} id={`form${id}`}>{children}</form>
+      <form
+        className={`form ${"active"}`}
+        id={`form${id}`}
+      >
+        {children}
+      </form>
     </StyledSection>
   );
 }

@@ -23,7 +23,7 @@ type TextInputType = {
 
 export default function TextInput({ title, ...rest }: TextInputType) {
   return (
-    <StyledLabel>
+    <StyledLabel className='text_input_label'>
       {title}
       <input {...rest} />
     </StyledLabel>
